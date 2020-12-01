@@ -8,9 +8,9 @@ import (
 	"os/signal"
 	"reflect"
 	"runtime"
-	"scada/config"
-	"scada/db"
-	"scada/uyeg"
+	"merge/config"
+	"merge/db"
+	"merge/uyeg"
 	"sync"
 	"syscall"
 	"time"
@@ -20,9 +20,9 @@ var done = make(chan bool, 1)
 var ErrChan = make(chan map[string]interface{}, 10)
 var conf = config.GetConfiguration()
 var dbConn = db.DataBase{
-	Host:     conf.MYSQL_HOST,
-	Port:     conf.MYSQL_PORT,
-	Database: conf.MYSQL_DATABASE,
+	Host:     "127.0.0.1",
+	Port:     "3306",
+	Database: "conf.MYSQL_DATABASE",
 	User:     conf.MYSQL_USER,
 	Password: conf.MYSQL_PASSWORD,
 }

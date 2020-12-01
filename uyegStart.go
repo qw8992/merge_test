@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
-	"scada/uyeg"
+	"merge/uyeg"
 	"time"
 )
 

@@ -5,8 +5,8 @@ import (
 	"compress/gzip"
 	"fmt"
 	"log"
-	"scada/db"
-	"scada/uyeg"
+	"merge/db"
+	"merge/uyeg"
 	"time"
 )
 

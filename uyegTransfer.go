@@ -6,7 +6,7 @@ import (
 
 	//"log"
 	//"os"
-	"scada/uyeg"
+	"merge/uyeg"
 )
 
 //수집 및 처리한 데이터를

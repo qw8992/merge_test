@@ -4,7 +4,7 @@ import (
 	"fmt"
 	//	"log"
 	//	"os"
-	"scada/uyeg"
+	"merge/uyeg"
 	"time"
 )
 
